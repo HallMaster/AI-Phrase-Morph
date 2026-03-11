@@ -1,4 +1,4 @@
-# AI Text Transformer
+# AI Phrase Morph
 
 This application along with this description were built with the assistance of Claude AI.
 
