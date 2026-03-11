@@ -1,6 +1,10 @@
 # AI Text Transformer
 
-A web app that rewrites your text in different styles using Google's Gemini AI.
+This application along with this description were built with the assistance of Claude AI.
+
+The application can be viewed here: https://ai-phrase-morph-d8fuh9w0q-hallmasters-projects.vercel.app/
+
+A web app that rewrites your text in different styles using Google's Gemini AI. It is hosted via Vercel.
 
 ## Styles
 
@@ -9,25 +13,6 @@ A web app that rewrites your text in different styles using Google's Gemini AI.
 - **Rhyme** — turns it into a rhyming version
 - **News Headline** — punchy, journalistic headline
 - **Like I'm Five** — simplifies it for easy understanding
-
-## Setup
-
-1. Clone the repo and install dependencies:
-   ```
-   npm install
-   ```
-
-2. Copy `.env.local.example` to `.env.local` and add your Gemini API key:
-   ```
-   GEMINI_API_KEY=your_key_here
-   ```
-
-3. Run the development server:
-   ```
-   npm run dev
-   ```
-
-4. Open [http://localhost:3000](http://localhost:3000)
 
 ## Tech Stack
 
