@@ -2,7 +2,7 @@
 
 This application along with this description were built with the assistance of Claude AI.
 
-The application can be viewed here: https://ai-phrase-morph-d8fuh9w0q-hallmasters-projects.vercel.app/
+The application can be viewed here: https://ai-phrase-morph.vercel.app/
 
 A web app that rewrites your text in different styles using Google's Gemini AI. It is hosted via Vercel.
 
