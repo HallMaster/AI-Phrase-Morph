@@ -6,7 +6,7 @@ const STYLE_PROMPTS = {
 
   shakespearean: `Rewrite the following text in the style of William Shakespeare — use Early Modern English (thee, thou, doth, hath, 'tis, etc.), poetic flourishes, and dramatic expression. Preserve the original meaning. Return only the rewritten text, nothing else.`,
 
-  rhyme: `Rewite the following text to make it rhyme.`,
+    rhyme: `Rewrite the following text so that it rhymes, while retaining the original meaning as closely as possible. Use a consistent rhyme scheme. Return only the rhyming version, nothing else.`,
 
   headline: `Transform the following text into a punchy, attention-grabbing news headline (or a very short set of headlines if the content warrants it). Use dramatic, journalistic language. Return only the headline(s), nothing else.`,
 
@@ -41,7 +41,7 @@ export async function POST(request) {
     }
 
     const genAI = new GoogleGenerativeAI(apiKey)
-      const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' })
+      const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' })
 
     const prompt = `${stylePrompt}\n\nText to transform:\n${text}`
 
